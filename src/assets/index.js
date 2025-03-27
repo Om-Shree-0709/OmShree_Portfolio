@@ -27,7 +27,8 @@ import threejs from "./tech/threejs.svg";
 import jyc from "./company/jyc.png";
 import cd from "./company/codeday.png";
 import e5r from "./company/earth5r.png";
-import ip from "./company/ip.jpeg";
+import ip from "./company/kapoor.png";
+import Kapco from "./company/Kapco.png";
 
 import p1 from "./p1.png";
 import p2 from "./p2.png";
@@ -78,4 +79,5 @@ export {
   cd,
   e5r,
   ip,
+  Kapco,
 };

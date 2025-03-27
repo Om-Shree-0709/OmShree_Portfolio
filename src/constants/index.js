@@ -20,6 +20,7 @@ import {
   node,
   content,
   ip,
+  Kapco,
 } from "../assets";
 
 export const navLinks = [
@@ -106,51 +107,47 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Full-Stack Developer",
+    company_name: "Kapco Industries",
+    icon: Kapco,
+    iconBg: "#000000",
+    date: "March 2025 - Present",
+    points: [
+      "Developed a scalable e-commerce site with responsive design and optimized performance.",
+      "Enhanced functionality by integrating front-end and back-end solutions seamlessly.",
+      "Improved user experience through efficient code and performance optimizations.",
+    ],
+  },
+  {
+    title: "Freelance Front-End Developer",
+    company_name: "University Clubs (Koshish, Omega Leo, Sports)",
+    icon: jyc,
+    iconBg: "#000000",
+    date: "Jul 2024 – Present",
+    points: [
+      "Built responsive websites with 3D interactivity, increasing engagement by 30%.",
+      "Developed teamwork and leadership skills through club projects and freelance work.",
+      "Gained confidence by organizing events and delivering innovative designs.",
+    ],
+  },
+
+  {
     title: "Front-End Developer",
-    company_name: "InternPe",
+    company_name: "Kapoor Industries",
     icon: ip,
-    iconBg: "#E6DEDD",
-    date: "Aug 2024 - Present",
+    iconBg: "#000000",
+    date: " Jan 2024 – Jun 2024",
     points: [
       "Developing and maintaining web applications using React.js and related technologies for optimal performance.",
-      "Collaborating with cross-functional teams to deliver high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback.",
-    ],
-  },
-  {
-    title: "Active Member of JYC",
-    company_name: "Jaypee Youth Club",
-    icon: jyc,
-    iconBg: "#383E56",
-    date: "Sept 2022 - Present",
-    points: [
-      "Exploring diverse fields beyond academics.",
-      "Organizing various events and activities.",
-      "Developing teamwork and leadership skills.",
-      "Enhancing ability to express and integrate ideas.",
-      "Building confidence through participation and achievement.",
-    ],
-  },
-  {
-    title: "Content Writer",
-    company_name: "Earth5R",
-    icon: e5r,
-    iconBg: "#383E56",
-    date: "Sep 2023 - Oct 2023",
-    points: [
-      "Engaging with digital platforms to build and maintain a Sustainability Portfolio©.",
-      "Developing domain-specific green skills using advanced technology.",
-      "Using smart technology to track and promote sustainable choices.",
-      "Implementing data-driven strategies to combat climate change.",
-      "Leveraging mobile technology for environmental awareness and action.",
     ],
   },
   {
     title: "Mentor",
     company_name: "CodeDay",
     icon: cd,
-    iconBg: "#E6DEDD",
+    iconBg: "#ffffff",
     date: "July 2023",
     points: [
       "Taught web development using HTML, CSS, and JavaScript.",
@@ -230,6 +227,28 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Kapco Industries",
+    description:
+      "Developing a scalable e-commerce platform with a responsive design, seamless user experience, smooth navigation, and enhanced accessibility across all devices.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML5",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: p2,
+    source_code_link: "https://github.com/Om-Shree-0709/Kapco",
+    live_link: "https://kapco-test.netlify.app/",
+  },
+  {
     name: "JUIT University Website",
     description:
       "Responsive college website built with React, showcasing programs, campus photos, student testimonials, a contact form, and an integrated video player.",
@@ -277,28 +296,7 @@ const projects = [
     source_code_link: "https://github.com/Om-Shree-0709/Ecommerse-Website",
     live_link: "https://ecommerce-om-shree.netlify.app/",
   },
-  {
-    name: "News Website",
-    description:
-      "Dynamic news website built with React, offering categorized news browsing through an interactive Navbar and real-time updates on current events across various topics.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "html",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: p2,
-    source_code_link: "https://github.com/",
-    live_link: "https://github.com/Om-Shree-0709/News_Website",
-  },
+
   // {
   //   name: "Market Research & Insights",
   //   description:
