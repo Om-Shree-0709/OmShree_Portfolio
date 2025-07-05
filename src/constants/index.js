@@ -10,7 +10,6 @@ import {
   git,
   jyc,
   cd,
-  e5r,
   p1,
   p2,
   p3,
@@ -107,7 +106,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
+    title: "Front-End Developer",
     company_name: "Kapco Industries",
     icon: Kapco,
     iconBg: "#000000",
